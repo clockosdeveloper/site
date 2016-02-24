@@ -1,0 +1,307 @@
+$brand-primary:#00B0FF;
+$state-success-text:#4CAF50;
+$state-warning-text:#FFC107;
+$state-danger-text:#E91E63;
+$state-info-text:#673AB7;
+$border-radius-small: 1px;
+$border-radius-base: 2px;
+$border-radius-large: 3px;
+$alert-link-font-weight: normal;
+$body-bg: #FDFDFD;
+$headings-font-weight: 100;
+$btn-primary-bg: #444;
+$link-color:#444444;
+$link-hover-color:#ff281e;
+$pagination-active-bg:#ff281e;
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+* {
+  font-family:Roboto,'Helvetica Neue',sans-serif,'黑体'!important;
+}
+.panel{
+  border-width: 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.panel-heading{
+  border-bottom-width: 1px;
+  background-color: transparent!important;
+  border-bottom-color: #eee;
+}
+.panel-info .panel-heading{
+  color: $brand-primary;
+}
+.glyphicon {
+  font-family: 'Glyphicons Halflings'!important;
+}
+.fa{
+  font-family: FontAwesome!important;
+}
+a:hover {
+  text-decoration: none!important;
+}
+a:active {
+  text-decoration: none!important;
+}
+a:visited {
+  text-decoration: none!important;
+}
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background: #222222;
+    color: white;
+  }
+
+
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+
+  body > .container {
+    padding: 70px 15px 0;
+
+  }
+  .container .text-muted {
+    margin: 15px 0;
+
+  }
+  .text-muted span{
+    margin-top:2px;
+    color:#9d9d9d;
+  }
+  .text-muted a{
+       color:#9d9d9d;
+  }
+  .text-muted a:focus,.text-muted a:hover{
+    color:#FFF;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  #login-form{
+    max-width: 400px;
+  }
+
+
+  .nav .badge{
+    background-color: #FF281E;
+  }
+  .nav-gravatar {
+    float: right;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    height: 35px;
+    width:35px;
+    border-radius: 25px;
+  }
+  .skill{
+    margin: 5px;
+    padding:5px;
+    border: solid 1px #CCC;
+  }
+
+.quest-skill{
+  margin: 2px;
+  height:75px;
+  width:75px;
+  border-radius: 40px;
+}
+#logo-top{
+  padding: 0 10px;
+  height:50px;
+  float:left;
+}
+
+#navbar .dropdown-toggle{
+  height:50px;
+}
+
+#quest-types label{
+  margin-right: 5px;
+}
+
+#quest-dropzone{
+  height:90px;
+  padding: 21px 15px;
+  border: 1px #CCC solid;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+#quest-dropzone div{
+  margin: auto;
+  width: 195px;
+}
+
+.form-error li{
+  list-style-type: none;
+}
+
+.select2-container--default .select2-selection--multiple{
+  border-color: #CCC!important;
+  border-radius: 2px!important;
+}
+
+
+
+/*quests-list*/
+
+#quests-list{
+  text-align: center;
+}
+#quests-list a{
+  display: inline-block;
+  height:330px;
+  width: 350px;
+  text-align: left;
+  margin: 15px!important;
+  padding: 0;
+}
+#quests-list .panel-default{
+  max-width: 350px;
+  min-height:100%;
+}
+#quests-list .glyphicon{
+  font-size: 12px;
+}
+.quests-logo{
+  border: solid 1px #eee;
+  height: 35px;
+  border-radius: 25px;
+  z-index: -1;
+}
+.quests-list-bottom{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  max-height: 35px;
+  overflow: hidden;
+}
+.quests-list-status{
+  color: #666;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.quests-list-status .glyphicon-usd{
+  margin-left: -1px;
+  margin-right: 1px;
+}
+
+#quests-list .panel img{
+  max-width: 100%;
+}
+.list-first-row{
+  position: relative;
+  height: 40px;
+}
+.quests-list-title{
+  max-height:40px;
+  max-width: 230px;
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #666;
+  font-size: 15px;
+}
+.quests-type-tag{
+  float:right;
+  margin-right: -20px;
+  color: white;
+  background-color: #666;
+  padding: 0 4px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+}
+.quests-level{
+  position: absolute;
+  bottom: 10px;
+  right: 3px;
+  color: white;
+  text-align: center;
+  width: 27px;
+  font-size: 10px;
+}
+.difficulty-text-1{
+  color: $state-success-text;
+}
+.difficulty-text-2{
+  color: $brand-primary;
+}
+.difficulty-text-3{
+  color: $state-info-text;
+}
+.difficulty-text-4{
+  color: $state-warning-text;
+}
+.difficulty-text-5{
+  color: $state-danger-text;
+}
+.quests-markdown pre{
+  padding:0;
+}
+
+
+/*Login page*/
+#github-login-button{
+  background-repeat: no-repeat;
+  margin: 10px 0;
+}
+
+.nav-tabs {
+  border-bottom:0;
+}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
+  border-color: #ff281e;
+  color: #ff281e;
+  border-width: 0 0 2px 0;
+}
+.nav-tabs>li>a{
+  border-width: 0;
+}
+.nav-tabs>li>a:hover,.nav-tabs>li>a:focus{
+  border-width: 0;
+  background:none;
+}
+.carousel-control{
+  background: none!important;
+}
+
+.quests-markdown a{
+  color: #ff281e;
+}
+.quests-markdown a:hover{
+  color: #ff8d85;
+}
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  border-color: #ff281e;
+}

@@ -1,0 +1,10 @@
+{!! link_to_action('DecisionsController@index', trans('decision.feature'), ['type' => 'feature'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.tech'), ['type' => 'tech'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.capital'), ['type' => 'capital'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.invest'), ['type' => 'invest'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.price'), ['type' => 'price'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.stock'), ['type' => 'stock'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.service'), ['type' => 'service'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.rebuild'), ['type' => 'rebuild'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.appoint'), ['type' => 'appoint'])!!}&nbsp;&middot;
+{!! link_to_action('DecisionsController@index', trans('decision.other'), ['type' => 'other'])!!}

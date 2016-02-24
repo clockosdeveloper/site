@@ -1,0 +1,39 @@
+{!! link_to_action('QuestsController@index', trans('form.ixd'), ['type' => 'ixd'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.uid'), ['type' => 'uid'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.program'), ['type' => 'program'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.db'), ['type' => 'db'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.algorithm'), ['type' => 'algorithm'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.architect'), ['type' => 'architect'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.optimize'), ['type' => 'optimize'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.other'), ['type' => 'other'])!!}&nbsp;&middot;
+
+{!! link_to_action('QuestsController@index', trans('form.test'), ['type' => 'test'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.testing'), ['type' => 'testing'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.merge'), ['type' => 'merge'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.maintain'), ['type' => 'maintain'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.network'), ['type' => 'network'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.bug'), ['type' => 'bug'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.security'), ['type' => 'security'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.backup'), ['type' => 'backup'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.statistics'), ['type' => 'statistics'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.help'), ['type' => 'help'])!!}&nbsp;&middot;
+
+{!! link_to_action('QuestsController@index', trans('form.essay'), ['type' => 'essay'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.translation'), ['type' => 'translation'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.material'), ['type' => 'material'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.visual'), ['type' => 'visual'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.slide'), ['type' => 'slide'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.animation'), ['type' => 'animation'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.video'), ['type' => 'video'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.vocal'), ['type' => 'vocal'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.music'), ['type' => 'music'])!!}&nbsp;&middot;
+
+{!! link_to_action('QuestsController@index', trans('form.promote'), ['type' => 'promote'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.present'), ['type' => 'present'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.consult'), ['type' => 'consult'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.law'), ['type' => 'law'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.finance'), ['type' => 'finance'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.capital'), ['type' => 'capital'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.purchase'), ['type' => 'purchase'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.service'), ['type' => 'service'])!!}&nbsp;&middot;
+{!! link_to_action('QuestsController@index', trans('form.admin'), ['type' => 'admin'])!!}
