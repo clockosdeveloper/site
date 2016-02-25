@@ -43,7 +43,7 @@ class QuestsController extends Controller
             $quests = Quest::where($input);
         }
 
-        $quests = $quests->latest()->paginate(12);
+        $quests = $quests->latest('updated_at')->paginate(12);
 
         return view('quest.list',compact('quests'));
     }

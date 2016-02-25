@@ -26,7 +26,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <a href="/about">
+                <a href="#" data-toggle="modal" data-target="#myModal2">
                     <img src="{{Clockos\Test::cdn('/img/bg/2.png')}}" alt="...">
                     <div class="carousel-caption">
                         <h3>{{trans('page.about_clockos')}}</h3>
@@ -69,7 +69,7 @@
         </div>
         <div class="col-md-4">
             <div class="panel panel-default ">
-                <div class="panel-heading"><a href="/docs">{{trans_choice('app.docs',2)}}</a></div>
+                <div class="panel-heading"><a href="/docs">{{trans_choice('page.basic_law',2)}}</a></div>
                 <div class="panel-body">
                     <a href="/docs/clockos-intro">了解clockOS</a><br/>
                     <a href="/docs/developer">Developer</a><br/>
@@ -115,7 +115,30 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body" style="padding:0">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" controls id="about-clockos-video">
+                            <source src="{{Clockos\Test::cdn('/vid/poverty.mp4')}}">
+                        </video>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 @endsection
 @section('footer')
-    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#myModal2').on('shown.bs.modal', function (e) {
+                 $('#about-clockos-video')[0].play();
+            })
+            $('#myModal2').on('hide.bs.modal', function (e) {
+                $('#about-clockos-video')[0].pause();
+            })
+        });
+
+    </script>
 @endsection

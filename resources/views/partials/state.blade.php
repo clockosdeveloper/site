@@ -13,7 +13,7 @@
 @if($state=="4")
 <span class="glyphicon glyphicon-ok difficulty-text-1" aria-hidden="true"></span><span class="difficulty-text-1">
 @endif
-{{trans('form.'.$quest->state)}}
+{{trans('form.'.$state)}}
 </span>
 &nbsp;
 @if($quest->user_id==\Auth::id())

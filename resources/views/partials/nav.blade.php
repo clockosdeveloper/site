@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url('/') }}" id="logo-top"><img alt="clockOS Developer" src="{{Clockos\test::cdn('/img/logo.png')}}" height="50px;" width="200px"></a>
+            <a class="navbar-brand" href="{{ url('/') }}" id="logo-top"><img alt="clockOS Developer" src="{{Clockos\test::cdn('/img/beta.png')}}" height="50px;"></a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">

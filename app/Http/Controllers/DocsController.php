@@ -180,13 +180,13 @@ class DocsController extends Controller
 
     private function docTrans($doc){
         if(!$doc->entitle){
-            flash()->warning(trans('doc.no_english_version'))->important();
+            //flash()->warning(trans('doc.no_english_version'))->important();
             $doc->entitle = $doc->title;
             $doc->enbody = $doc->body;
         }
 
         if(!$doc->title){
-            flash()->warning(trans('doc.no_chinese_version'))->important();
+            //flash()->warning(trans('doc.no_chinese_version'))->important();
             $doc->title = $doc->entitle;
             $doc->body = $doc->enbody;
         }
