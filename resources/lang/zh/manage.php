@@ -15,5 +15,6 @@ return [
 
     'ceo' => '首席执行官',
     'rookie' => '新手',
+    'head_nlp' => '部门主管(NLP)',
 
 ];

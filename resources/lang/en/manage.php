@@ -15,5 +15,6 @@ return [
 
     'ceo' => 'CEO',
     'rookie' => 'Rookie',
+    'head_nlp' => 'Department Head(NLP)',
 
 ];
