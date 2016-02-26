@@ -5,7 +5,7 @@
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/1.png')}}" alt="...">
+                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/1.png')}}" alt="...">
                     </a>
                 </div>
                 <div class="media-body">
@@ -18,7 +18,7 @@
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/2.png')}}" alt="...">
+                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/2.png')}}" alt="...">
                     </a>
                 </div>
                 <div class="media-body">
@@ -31,7 +31,7 @@
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/3.png')}}" alt="...">
+                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/3.png')}}" alt="...">
                     </a>
                 </div>
                 <div class="media-body">
@@ -44,7 +44,7 @@
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/4.png')}}" alt="...">
+                        <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/4.png')}}" alt="...">
                     </a>
                 </div>
                 <div class="media-body">

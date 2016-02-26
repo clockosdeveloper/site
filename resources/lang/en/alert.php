@@ -29,6 +29,7 @@ return [
     'sell_list' => '',
     'deleted' => 'The item has been deleted successfully.',
     'permission_not_allowed' => 'You have no permission to do this at present.',
+    'new_doc' => 'The document has been updated.',
 
 
 

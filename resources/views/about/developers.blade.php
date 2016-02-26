@@ -27,7 +27,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/zhang.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/zhang.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -41,7 +41,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/liu.jpg')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/liu.jpg')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -55,7 +55,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/fei.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/fei.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -69,7 +69,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/wang.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/wang.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -83,7 +83,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/yu.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/yu.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -97,7 +97,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/diao.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/diao.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -119,7 +119,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/chen.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/chen.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -133,7 +133,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/que.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/que.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">
@@ -147,7 +147,7 @@
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/avatar/2.png')}}" alt="...">
+                            <img class="media-object quest-skill" src="{{Clockos\Test::cdn('/img/developers/2.png')}}" alt="...">
                         </a>
                     </div>
                     <div class="media-body">

@@ -32,6 +32,7 @@ return [
     'new_outcome' => '支出已添加，请等待审核',
     'outcome_granted' => '支出通过了审核',
     'outcome_executed' => '此条目已支出',
+    'new_doc' => '文档已更新',
 
 
 ];
