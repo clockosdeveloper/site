@@ -1,5 +1,5 @@
 <div class="panel panel-default col-md-12" id="social-links">
-    <div class="panel-heading"><a href="/quests/24">{{trans_choice('app.developer',3)}}</a></div>
+    <div class="panel-heading"><a href="/about/developers">{{trans_choice('app.developer',3)}}</a></div>
     <div class="panel-body">
         <div class="col-md-3">
             <div class="media">

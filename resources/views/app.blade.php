@@ -35,7 +35,7 @@
     <footer class="footer">
         <div class="container">
             <p class="text-muted">
-                <a href="/about">{{trans('app.about')}}</a>
+                <a href="/about/index">{{trans('app.about')}}</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact">{{trans('app.contact')}}</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://clockos.com">clockos.com</a>
                 <span style="font-size: 12px;float: right" class="visible-md visible-lg"><a href="http://www.miitbeian.gov.cn/" target="_blank">{{trans('app.beian')}}</a>  &nbsp;&nbsp;&nbsp;Copyright © {{date('Y')}} clockOS. All Rights Reserved.</span>

@@ -16,9 +16,11 @@ class PagesController extends Controller
 
     }
     //
-    function index(){
 
-        return view('about.index');
+
+    function about($page){
+
+        return view('about.'.$page);
 
     }
 
