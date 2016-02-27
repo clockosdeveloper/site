@@ -30,10 +30,10 @@ class MyQuestsController extends Controller
                            ->orWhere('execution_id',\Auth::id())
                            ->orWhere('checker_id',\Auth::id())
                            ->orWhere('final_checker_id',\Auth::id())
+                           ->latest('updated_at')
                            ->paginate(12);
-        }
 
-        $quests = $quests->latest('updated_at');
+        }
 
         return view('quest.my',compact('quests'));
     }
