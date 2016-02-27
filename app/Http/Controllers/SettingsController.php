@@ -30,12 +30,14 @@ class SettingsController extends Controller
     {
         $input = $request->all();
 
-        $present = \Auth::user()->settings()->first()->$input['type'];
+        $type = $input['type'];
+
+        $present = \Auth::user()->settings()->first()->$type;
 
         $newStatus = 1-$present;
 
         Setting::where('user_id',\Auth::id())
-            ->update([$input['type']=>$newStatus]);
+            ->update([$type=>$newStatus]);
 
         return $newStatus;
     }

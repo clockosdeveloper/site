@@ -13,6 +13,7 @@ return [
     'income'         => '收入',
     'outcome'        => '支出',
     'invest'         => '投资',
+    'bonus'          => '分红',
 
     'stocks'         => '我的史塔克斯',
     'percentage'     => '所占百分比',

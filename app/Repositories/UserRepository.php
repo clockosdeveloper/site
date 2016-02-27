@@ -24,7 +24,7 @@ class UserRepository
                 'sponsor_code' =>$user['sponsor_code'] = md5($userData->email.time())
             ]);
 
-            \Auth::user()->assignRole('rookie');
+            $user->assignRole('rookie');
 
         }
 

@@ -24,16 +24,16 @@ class CreateUsersTable extends Migration
             $table->rememberToken('token');
             $table->timestamps();
             $table->string('authority');
-            $table->text('avatar');
-            $table->string('profession');
+            $table->text('avatar')->nullable();
+            $table->string('profession')->nullable();
             $table->string('sponsor_code')->unique();
             $table->integer('sponsor_id')->default(-5);
             $table->unsignedTinyInteger('sponsor_max')->default(5); //团队人数上限
-            $table->text('introduction');
-            $table->text('github');
-            $table->text('blog');
-            $table->text('company');
-            $table->string('location');
+            $table->text('introduction')->nullable();
+            $table->text('github')->nullable();
+            $table->text('blog')->nullable();
+            $table->text('company')->nullable();
+            $table->string('location')->nullable();
             $table->integer('experience')->default(0)->unsigned();
             $table->tinyInteger('level')->default(1)->unsigned();
             $table->integer('stock')->default(0)->unsigned();

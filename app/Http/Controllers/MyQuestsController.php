@@ -33,7 +33,7 @@ class MyQuestsController extends Controller
                            ->paginate(12);
         }
 
-
+        $quests = $quests->latest('updated_at');
 
         return view('quest.my',compact('quests'));
     }

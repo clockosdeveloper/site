@@ -47,10 +47,5 @@ class Kernel extends ConsoleKernel
 
         })->weekly()->mondays()->at('04:30');
 
-        $schedule->call(function(){
-
-            WeeklyStatistics::record();
-
-        })->everyMinute();
     }
 }

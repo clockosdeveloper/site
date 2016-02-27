@@ -49,7 +49,7 @@
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">蛤蟆馅包子</h4>
-                    Search Engine部门主管
+                    AI部门主管
                 </div>
             </div>
         </div>

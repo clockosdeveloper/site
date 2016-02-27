@@ -18,6 +18,7 @@ return [
     'income'         => 'Income',
     'outcome'        => 'Outcome',
     'invest'         => 'Invest',
+    'bonus'          => 'Bonus',
 
     'stocks'         => 'My stocks',
     'percentage'     => 'Percentage',

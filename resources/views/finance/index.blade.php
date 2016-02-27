@@ -8,6 +8,7 @@
         <li role="presentation"><a href="{{ url('/finance/outcome') }}">{{trans('finance.outcome')}}</a></li>
         <li role="presentation"><a href="{{ url('/finance/trade') }}">{{trans('finance.trade')}}</a></li>
         <li role="presentation"><a href="{{ url('/finance/invest') }}">{{trans('finance.invest')}}</a></li>
+        <li role="presentation"><a href="/quests/32">{{trans('finance.bonus')}}</a></li>
     </ul>
 
     <div class="panel panel-default">

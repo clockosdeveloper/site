@@ -74,7 +74,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">duner</h4>
-                        <br/>OS主管<br/>
+                        <br/>OS部门主管<br/>
                         Java工程师
                     </div>
                 </div>

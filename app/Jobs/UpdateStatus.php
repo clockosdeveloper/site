@@ -125,7 +125,7 @@ class UpdateStatus extends Job implements SelfHandling, ShouldQueue
 
         $status['stock'] = Status::usersSum('stock');              //已发行股权的总数
 
-        $status['per_stock'] = (1/(Status::stocksNum([4])))*100;                //平均每股所占百分比
+        $status['per_stock'] = (1/(Status::usersSum('stock')))*100;                //平均每股所占百分比
 
         $status['quests_doing'] = Status::questsNum([3]);             //待发行股权的总数
 

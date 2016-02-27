@@ -14,7 +14,20 @@ return [
     */
 
     'ceo' => 'CEO',
+    'cto' => 'CTO',
+    'cfo' => 'CFO',
+    'cio' => 'CIO',
+    'architect' => 'Architect',
+    'engineer' => 'Engineer',
+    'designer' => 'Designer',
     'rookie' => 'Rookie',
     'head_nlp' => 'Department Head(NLP)',
+    'head_search' => 'Department Head(Search Engine)',
+    'head_developer' => 'Department Head(Developer)',
+    'head_os' => 'Department Head(OS)',
+    'head_portal' => 'Department Head(Portal)',
+    'head_mobile' => 'Department Head(Mobile)',
+    'head_ap' => 'Department Head(App Builder)',
+    'head_api' => 'Department Head(API)',
 
 ];
