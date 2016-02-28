@@ -140,7 +140,7 @@
                     <label><input type="radio" name="option" value="{{$item->id}}"> {{$item->title}}</label><br/>
                 @endforeach
                 <div class="form-group">
-                    {!! Form::label('votes',trans('decision.amount')) !!} (1~{{\Auth::user()->voting}})
+                    {!! Form::label('votes',trans('decision.amount')) !!} (1~{{$remain}})
                     {!! Form::input('number','amount',null,['class' => 'form-control','placeholder'=> trans('decision.integer'),'required']) !!}
                     {!! Form::input('hidden','decision_id', $decision->id ,['required']) !!}
                 </div>
