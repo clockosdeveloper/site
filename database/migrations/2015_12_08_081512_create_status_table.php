@@ -27,7 +27,7 @@ class CreateStatusTable extends Migration
             $table->unsignedSmallInteger('quests_open');
             $table->unsignedMediumInteger('quests_wait');
             $table->unsignedMediumInteger('quests_all');
-            $table->unsignedInteger('cash_flow');               //现金流
+            $table->integer('cash_flow');               //现金流
             $table->unsignedInteger('invested');                //已投资的金额
             $table->unsignedInteger('invest_wait');             //待投资的金额
             $table->unsignedInteger('outcome');

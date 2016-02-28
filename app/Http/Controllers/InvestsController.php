@@ -17,7 +17,7 @@ class InvestsController extends Controller
      */
     public function index()
     {
-        $invest = Invest::all();
+        $invest = Invest::where('state',4)->paginate(30);
 
         return view('finance.invest',compact('invest'));
     }

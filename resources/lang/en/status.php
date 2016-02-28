@@ -13,6 +13,7 @@ return [
     'stock_week'    => 'Stock released last week',
     'stock_wait'    => 'Stock releasing',
     'per_stock'     => 'Percentage per stock',
+    'cash_flow'     => 'Cash Flow($)',
     'stock_price'   => 'Average price per stock',
     'invested'      => 'Invested',
     'outcome'       => 'Total Outcome($)',

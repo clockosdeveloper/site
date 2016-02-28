@@ -21,13 +21,13 @@
                             <td style="color: #FDB45C">{{trans('status.stock_wait')}}</td><td>{{$status->stock_wait}}</td>
                         </tr>
                         <tr>
-                            <td>{{trans('status.per_stock')}}</td><td>{{$status->per_stock}}%</td>
+                            <td>{{trans('status.cash_flow')}}</td><td>{{Clockos\ChangeRate::toRmb($status->cash_flow)}}</td>
                         </tr>
                         <tr>
                             <td>{{trans('status.average_price')}}</td><td>{{Clockos\ChangeRate::toRmb($status->average_price)}}</td>
                         </tr>
                         <tr>
-                            <td>{{trans('status.invested')}}</td><td>{{$status->invested}}</td>
+                            <td>{{trans('status.invested')}}</td><td>{{Clockos\ChangeRate::toRmb($status->invested)}}</td>
                         </tr>
                         <tr>
                             <td>{{trans('status.outcome')}}</td><td>{{Clockos\ChangeRate::toRmb($status->outcome)}}</td>

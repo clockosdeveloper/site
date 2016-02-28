@@ -128,9 +128,11 @@ class DecisionsController extends Controller
 
         $option = $this->voted($id);
 
+        $remain = Decision::remainVotes();
+
         $decision['body'] = $parsedown->text($decision['body']);
 
-        return view('decision.show',compact('decision','option'));
+        return view('decision.show',compact('decision','option','remain'));
     }
 
     /**
@@ -180,8 +182,6 @@ class DecisionsController extends Controller
 
         DB::transaction(function() use ($input,$vote,$decision){
 
-            \Auth::user()->where('id',\Auth::id())
-                         ->update(['voting' => \Auth::user()->voting-$input['amount']]);
             $vote->insert(['decision_id' => $input['decision_id'], 'amount' => $input['amount'], 'user_id' => \Auth::id(), 'option_id' => $input['option']]);
 
             $option = Option::where('id',$input['option'])->first();

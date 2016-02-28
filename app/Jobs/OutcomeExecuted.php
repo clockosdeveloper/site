@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Invest;
 use App\Jobs\Job;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
@@ -34,7 +35,11 @@ class OutcomeExecuted extends Job implements SelfHandling, ShouldQueue
         $outcome_wait = Outcome::where('state',2)->sum('price');
 
         $outcome = Outcome::where('state',4)->sum('price');
+        
+        $invested = Invest::invested();
+        
+        $cash_flow = $invested-$outcome;
 
-        Status::updateStatus(['outcome_wait' => $outcome_wait,'outcome' => $outcome]);
+        Status::updateStatus(['outcome_wait' => $outcome_wait,'outcome' => $outcome,'cash_flow' => $cash_flow]);
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Decision;
+use App\Invest;
 use App\Services\UpyunOther;
 use Illuminate\Http\Request;
 
@@ -17,7 +18,7 @@ class TestController extends Controller
 {
     public function index()
     {
-        dd(\Auth::user()->settings()->first()->email_found_me);
+        return Invest::invested();
     }
 
 

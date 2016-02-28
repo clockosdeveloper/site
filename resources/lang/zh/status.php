@@ -12,6 +12,7 @@ return [
     'stock_week'    => '一周内发行的史塔克斯',
     'stock_wait'    => '待发行的史塔克斯',
     'per_stock'     => '每史塔克斯所占百分比',
+    'cash_flow'     => '现金流(￥)',
     'stock_price'   => '每史塔克斯均价',
     'invested'      => '已投资',
     'invest_wait'   => '待投资',

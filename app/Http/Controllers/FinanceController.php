@@ -98,7 +98,7 @@ class FinanceController extends Controller
 
     public function income()
     {
-        $income = Income::where('user_id',\Auth::id())->get();
+        $income = Income::where('user_id',\Auth::id())->latest('updated_at')->get();
 
         return view('finance.income',compact('income'));
     }

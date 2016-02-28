@@ -31,8 +31,11 @@ return [
     'accomplishment' => 'Achievement',
     'per_stock'      => 'Percentage at that moment',
     'type'           => 'Type',
+
+    /* Achievements */
     'create_task'    => 'Earned by creating task',
     'complete_task'  => 'Earned by completing task',
+    'investing'      => 'Earned by investing',
 
     'record'        => 'Record',
     'seller'        => 'Seller',

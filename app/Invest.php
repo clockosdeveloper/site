@@ -15,4 +15,9 @@ class Invest extends Model
     {
         return $this->belongsTo('App\User','checker_id');
     }
+
+    public static function invested()
+    {
+        return self::where('state',4)->sum('price');
+    }
 }

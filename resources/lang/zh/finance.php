@@ -26,6 +26,9 @@ return [
     'accomplishment' => '成就',
     'per_stock'      => '在当时所占的百分比',
     'type'           => '类型',
+
+    /* Achievements */
+    'investing'      => '通过投资获得',
     'create_task'    => '通过创建任务获得',
     'complete_task'  => '通过完成任务获得',
 

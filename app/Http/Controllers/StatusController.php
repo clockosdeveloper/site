@@ -19,6 +19,7 @@ class StatusController extends Controller
     public function index()
     {
         $status = Status::latest()->first();
+
         return view('status.index',compact('status'));
     }
 
