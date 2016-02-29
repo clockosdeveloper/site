@@ -60,7 +60,7 @@ return [
 
     'end'           => 'To(Y-m-d)',
     'start'         => 'From(Y-m-d)',
-    'provider'      => 'Provider',
+    'provider'      => 'Vender',
     'unit_price'    => 'Unit Price($)',
     'outcome_record'=> 'Record',
     'checker'       => 'Checked by',

@@ -24,6 +24,7 @@ return [
     'vote' => '投票',
     'add' => '添加选项 ',
     'amount' => '你要投多少票 ',
+    'day' => '投票几天后结束 ',
 
     'other' => '其他',
     'tech' => '技术选择',
@@ -56,7 +57,10 @@ return [
 
     'option_title' => '选项必须要有一个名字.',
 
-    'participate' => '我参与的'
+    'participate' => '我参与的',
+
+    'success' => '投票成功',
+
 
 ];
 

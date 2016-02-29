@@ -24,6 +24,7 @@ return [
     'vote' => 'Vote',
     'add' => 'Add an option ',
     'amount' => 'How many would you vote ',
+    'day' => 'How many days before this decision being made finally',
 
     'other' => 'Others',
     'tech' => 'Tech',
@@ -56,7 +57,9 @@ return [
 
     'option_title' => 'The option must have a name.',
 
-    'participate' => 'Participated'
+    'participate' => 'Participated',
+    
+    'success' => 'Success',
 
 ];
 

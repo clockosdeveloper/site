@@ -30,6 +30,7 @@ return [
     'deleted' => 'The item has been deleted successfully.',
     'permission_not_allowed' => 'You have no permission to do this at present.',
     'new_doc' => 'The document has been updated.',
+    'new_decision' => 'The decision has been created successfully.',
 
 
 

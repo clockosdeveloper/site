@@ -33,6 +33,7 @@ return [
     'outcome_granted' => '支出通过了审核',
     'outcome_executed' => '此条目已支出',
     'new_doc' => '文档已更新',
+    'new_decision' => '决策创建成功',
 
 
 ];

@@ -156,7 +156,7 @@ class DocsController extends Controller
 
         $doc->departments()->sync($department_list);
 
-        flash()->success(trans('form.updated'));
+        flash()->success(trans('alert.new_doc'));
 
         return redirect('/docs/' .$doc->permalink);
     }

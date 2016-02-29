@@ -36,6 +36,7 @@
     <link href="https://cdn.bootcss.com/highlight.js/9.1.0/styles/tomorrow-night.min.css" rel="stylesheet">
 @endsection
 @section('content')
+    @include('errors.form')
     <div class="panel panel-default">
         <div class="panel-body">
             <div class="col-md-8">
@@ -134,7 +135,7 @@
             @can('can_vote',$decision)
             @if($decision->state==3)
             @unless($option)
-                @include('errors.form')
+
                 {!! Form::open(array('url' => '/decision/vote')) !!}
                 @foreach($decision->optionsOrder as $key => $item)
                     <label><input type="radio" name="option" value="{{$item->id}}"> {{$item->title}}</label><br/>
@@ -201,10 +202,6 @@
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
             $('.quests-markdown table').addClass('table')
-            $('input').iCheck({
-                checkboxClass: 'icheckbox_square-blue',
-                radioClass: 'iradio_square-blue',
-            })
         })
 
 

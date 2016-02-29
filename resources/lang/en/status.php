@@ -9,9 +9,9 @@ return [
     'week'          => "Week :week in :year",
 
     'data'          => 'Data',
-    'stock'         => 'Stock released',
-    'stock_week'    => 'Stock released last week',
-    'stock_wait'    => 'Stock releasing',
+    'stock'         => 'Stocks released',
+    'stock_week'    => 'Stocks released last week',
+    'stock_wait'    => 'Stocks releasing',
     'per_stock'     => 'Percentage per stock',
     'cash_flow'     => 'Cash Flow($)',
     'stock_price'   => 'Average price per stock',

@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Decision;
 use App\Http\Requests\Request;
 
 class VoteRequest extends Request
@@ -23,7 +24,9 @@ class VoteRequest extends Request
      */
     public function rules()
     {
-        $vote_rule = 'required|min:1|integer|max:'.\Auth::user()->voting;
+        $remain = Decision::remainVotes();
+
+        $vote_rule = 'required|min:1|integer|max:'.$remain;
         return [
             'option' => 'required|',
             'amount' => $vote_rule,
